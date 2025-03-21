@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "resourceBaseName": {
+        "value": "bot${{RESOURCE_SUFFIX}}"
+      },
+      "botAadAppClientId": {
+        "value": "cbc39aa0-896c-42b3-b6ee-18de607166f4"
+      },
+      "botAppDomain": {
+        "value": "teams-web-app-h7h6ahhwa7h7esc8.eastasia-01.azurewebsites.net"
+      },
+      "botDisplayName": {
+        "value": "TeamsConversationBot"
+      }
+    }
+  }
