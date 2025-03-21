@@ -7,4 +7,4 @@ additionalMetadata:
   sampleTag: Microsoft-Teams-Samples:bot-conversation-python
 
 environmentFolderPath: ./env
-projectId: cbc39aa0-896c-42b3-b6ee-18de607166f4
+projectId: '''Your app id here'''

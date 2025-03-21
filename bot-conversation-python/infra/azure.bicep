@@ -21,7 +21,7 @@ resource botService 'Microsoft.BotService/botServices@2021-03-01' = {
   name: botServiceName
   properties: {
     displayName: botDisplayName
-    endpoint: 'https://teams-web-app-h7h6ahhwa7h7esc8.eastasia-01.azurewebsites.net/api/messages'
+    endpoint: 'https://${botAppDomain}/api/messages'
     msaAppId: botAadAppClientId
     msaAppType: 'MultiTenant'
     msaAppTenantId: ''
